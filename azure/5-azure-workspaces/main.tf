@@ -68,7 +68,7 @@ storage_image_reference {
     os_profile {
     computer_name  = "WebSrv"
     admin_username = "testadmin"
-    admin_password = "Password1234!"
+    admin_password = "Rockwell@6459"
   }
   os_profile_linux_config {
     disable_password_authentication = false
