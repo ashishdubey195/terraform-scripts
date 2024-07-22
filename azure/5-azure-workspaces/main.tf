@@ -114,7 +114,7 @@ resource "azurerm_virtual_machine" "vm" {
 }
 
   os_profile {
-    computer_name     = "myTFVM"
+    computer_name     =  var.computer_names[2]
     admin_username    = "adminuser"
     admin_password    = "Rockwell@6459"
   }
