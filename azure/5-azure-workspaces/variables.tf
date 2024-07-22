@@ -23,3 +23,8 @@ variable "virtual_machine_name" {
     type = string
     description = "Virtual machine in azure"
 }
+variable "computer_names" {
+  description = "Names of the computers for each environment"
+  type        = list(string)
+  default     = ["dev-env", "int-env", "prod-env"]
+}
